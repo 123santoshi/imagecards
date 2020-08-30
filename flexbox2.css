@@ -1,0 +1,100 @@
+.card1, .card2, .card3{
+	border:2px solid black;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	border-radius:10%;
+	width:25%;
+	background-color:skyblue;
+	}
+button{
+	width:40%;
+	background-color:pink;
+	height:10%;}
+.card{
+	display:flex;
+	flex-direction:row;
+	border:2px solid black;
+	justify-content:space-around;
+	margin:1%;
+	padding:1%;}
+img{
+	width:70%;
+	border:2px solid black;
+	border-radius:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:5px 6px 7px red;}
+}
+@media only screen and (min-width:481px) and (max-width:767px){
+card1, .card2, .card3{
+	border:2px solid black;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	border-radius:10%;
+	width:92%;
+	background-color:skyblue;
+	}
+h3,p,button{
+	word-wrap:break-word;}
+	
+button{
+	width:40%;
+	background-color:pink;
+	height:10%;}
+.card{
+	display:flex;
+	flex-direction:column;
+	border:2px solid black;
+	justify-content:space-around;
+	margin:1%;
+	padding:1%;}
+img{
+	width:60%;
+	border:2px solid black;
+	border-radius:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:5px 6px 7px red;}
+	
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+card1, .card2, .card3{
+	border:2px solid black;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	border-radius:10%;
+	width:40%;
+	background-color:skyblue;
+	}
+h3,p,button{
+	word-wrap:break-word;}
+	
+button{
+	width:40%;
+	background-color:pink;
+	height:10%;}
+.card{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	border:2px solid black;
+	
+	margin:1%;
+	padding:1%;}
+img{
+	width:60%;
+	border:2px solid black;
+	border-radius:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:5px 6px 7px red;}
+	
+
+}

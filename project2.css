@@ -1,0 +1,16 @@
+body{
+	background-color:#77E71A;
+	margin:30px;
+	padding:10px;
+}
+main{
+	margin:5%;
+
+	display:flex;
+	background-color:aqua;
+	justify-content:space-around;}
+section{
+	margin:5%;
+	background-color:pink;
+
+}
